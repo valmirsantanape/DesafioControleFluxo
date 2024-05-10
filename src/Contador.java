@@ -12,7 +12,7 @@ public class Contador extends Exception{
             boolean verificarParametros = verificarParametros(num1, num2);
 
 
-            //Para melhorar a otimização do sistema e diminuir uso de recurso de hardware
+            //Para melhorar a otimização do sistema e diminuir uso dos recursos de hardware
             //dentro do laço for, no indice i, para iniciar a segunda interação, seu valor
             // sera incrementado pela diferenca entre num1 e num2. Isso fara com que a
             // repetição ocorra apenas uma vez independentemente dos parâmetros usados.
